@@ -17,9 +17,10 @@
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/app.js"></script>
 </head>
-<body>
-    <h1>Test</h1>
-    <h4>test route is working</h4>
+<body class="container pt-4">
+    <h1>Welcome, <c:out value="${userName}"/>!</h1>
+    <p>This is your dashboard. Nothing to see here yet.</p>
+    <a href="/logout">logout</a>
 </body>
 </html>
 
